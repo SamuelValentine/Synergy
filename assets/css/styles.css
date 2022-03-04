@@ -1,0 +1,229 @@
+html, body{
+	font-size:16px;
+	color: #000000;
+	background-color: #063647; 
+}
+
+/* -=-=-=- INTRO -=-=-=- */
+.section-welcome {
+  background-image:url("../img/style/background.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.avatar{
+	border-radius: 50%;
+	max-width: 30%;
+	max-height: 30%;
+}
+
+.welcomeText{
+	padding: 10% 0% 0% 0%;
+	margin: 0% 10%;
+	font-family: Georgia;
+	font-size: 70%
+}
+
+
+/* -=-=-=- EVENTS -=-=-=- */
+.section-events {
+	background-color: #FFFFFF;
+	padding: 0% 5% 5% 5%;
+	text-align: center;
+}
+
+.event-text {
+	text-align: justify;
+	font-family: Georgia;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+	align-items: center;
+	justify-content: center;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+.event_image {
+	max-height: 700px;
+	max-width: 700px;
+
+	position: relative;
+}
+
+/* -=-=-=-=- CALENDAR -=-=-=-=- */
+.section-calendar {
+	background-color: /*#D3D3D3;*/ #0E282E;
+	color: #FFFFFF;
+	font-family: Georgia;
+	align-items: center;
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2rem;
+	font-family: Georgia;
+}
+
+.calendar_padding {
+  margin: 5% 0% 0% 0%;
+  border-radius: 30%;
+}
+
+.calendar_image {
+	border-radius: 10%;
+	max-height: 90%;
+	max-width: 90%;
+	padding: 2%;
+
+	
+}
+
+
+/* -=-=-=-=- TEAM -=-=-=-=- */
+.section-team {
+	background-color: /*#D3D3D3;*/ #0E282E;
+	color: #FFFFFF;
+	font-family: Georgia;
+	align-items: center;
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2rem;
+	font-family: Georgia;
+}
+
+.leader {
+	padding: 2.5% 2.5%;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	max-height: 375px;
+	max-width: 375px;/*
+	align-items: center;
+	justify-content: center;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*width: 40%;*/
+}
+
+.image__img{
+	display: block;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.image__overlay{
+	max-height: 375px;
+	max-width: 375px;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0; 
+	transition: opacity 0.25s;
+	/*font-size: 1vw;*/
+
+	
+	border-radius: 50%;
+	font-family: Georgia;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+}
+
+.image__title{
+	font-weight: bold;
+	padding: 1%;
+	/*font-size: 80%;*/
+}
+
+.image__description{
+	margin: 2%;
+	/*font-size: 60%;*/
+	padding: 1%;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* -=-=-=- SOCIALS -=-=-=- */
+.section-socials {
+	background-image:url("../img/style/background.png");
+}
+
+.social_column {
+	float: left;
+	width: 33.33%;
+	padding:0% 10%;
+}
+
+.max_size {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.copyright {
+  margin: 20% 0px 0px 0px;
+  font-family: Georgia;
+}
+
+/* -=-=-=- PHONE-FRIENDLY -=-=-=-*/
+@media screen and (max-width: 768px) {
+
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+}
+
